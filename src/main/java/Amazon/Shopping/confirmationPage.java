@@ -22,11 +22,16 @@ public class confirmationPage extends ObstractComponents{
 	public String validateSuccessMessage() 
 	{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 		
 		System.out.println("message validated successfully");
 		System.out.println("message validated successfully");
 		System.out.println("message validated successfully");
+>>>>>>> Stashed changes
+=======
+		System.out.println("validation successfully completed and reverting the merged changes");
+		System.out.println("changes are reverted");
 >>>>>>> Stashed changes
 		return Message.getText();
 	}
