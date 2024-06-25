@@ -22,6 +22,8 @@ public class confirmationPage extends ObstractComponents{
 	public String validateSuccessMessage() 
 	{
 		System.out.println("validation successfully completed and reverting the merged changes");
+		System.out.println("validation successfully completed and reverting the merged changes");
+		System.out.println("validation successfully completed and reverting the merged changes");
 		return Message.getText();
 	}
 	// String validation = driver.findElement(By.xpath("//h1[contains(text(),\" Thankyou for the order. \")]")).getText();
