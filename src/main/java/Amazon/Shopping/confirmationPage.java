@@ -21,6 +21,13 @@ public class confirmationPage extends ObstractComponents{
 	
 	public String validateSuccessMessage() 
 	{
+<<<<<<< Updated upstream
+=======
+		
+		System.out.println("message validated successfully");
+		System.out.println("message validated successfully");
+		System.out.println("message validated successfully");
+>>>>>>> Stashed changes
 		return Message.getText();
 	}
 	// String validation = driver.findElement(By.xpath("//h1[contains(text(),\" Thankyou for the order. \")]")).getText();
