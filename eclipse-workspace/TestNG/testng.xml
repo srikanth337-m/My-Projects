@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="test.Listeners"/>
+</listeners>
+<!-- we can drive the data from the xml file using this parameterisation, we can use this parameterisation 
+in suite level and test level only -->
+
+  <test thread-count="5" name="Basic test cases">
+    <classes>
+      <class name="test.Base"/>
+      <class name="test.ClassTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- Car and Home Loan test suites -->
+  <test name = "car and home loan departments"> 
+  <classes>
+  <class name = "test.CarLoan"/>
+  <class name = "test.HomeLoan"/>
+  </classes>
+  </test>
+  
+  <!-- Personal Loan test suites -->
+  <test name = "Personal loan">
+  <parameter name ="URL" value="https://wwww.amazonindia.com"/>
+  <parameter name ="username" value="mattigunta.srikanth337@gmail.com"/>
+  <parameter name ="password" value="Srikanth@12453@"/>
+  <classes>
+  <class name = "test.PersonaLoan" >
+  <methods>
+  <exclude name = ""/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+</suite> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Personal loan(failed)(failed)(failed)">
+    <parameter name="password" value="Srikanth@12453@"/>
+    <parameter name="URL" value="https://wwww.amazonindia.com"/>
+    <parameter name="username" value="mattigunta.srikanth337@gmail.com"/>
+    <classes>
+      <class name="test.PersonaLoan">
+        <methods>
+          <include name="PLWebApplicatinLogin"/>
+          <include name="PLAPILogin"/>
+        </methods>
+      </class> <!-- test.PersonaLoan -->
+    </classes>
+  </test> <!-- Personal loan(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
