@@ -9,7 +9,7 @@ pipeline {
         stage('RemoveDirectory') {
             steps {
                 echo 'Hello World'
-                bat 'rmdir /s /q abc'
+                // bat 'rmdir /s /q abc'
             }
         }
         stage('CreateDirectory') {
